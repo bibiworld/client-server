@@ -3,7 +3,7 @@
 #houyufan
 import socket,sys
 
-port = 11111
+#port = 11111
 host = sys.argv[1]
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
