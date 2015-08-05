@@ -8,7 +8,7 @@ These two files are ready to be used to send strings.
 Usage:
 
 1.Xiao Pi Hai enters a commend "python standardserver.py (number)" in commend line.
-(number) refers to the number of the port your server will bind to on your computer. You'd better use a number LARGER than 10000. Otherwise the port might be used by your computer automatically and it causes your server out of work. And remember do NOT use numbers that are LARGER than 32767.
+(number) refers to the number of the port your server will bind to on your computer. You'd better use a number LARGER than 10000. Otherwise the port might have been used by your computer and it would cause your server out of work. And remember do NOT use numbers that are LARGER than 32767.
 
 2.If you want to stop the server, enter ctrl+c.
 
