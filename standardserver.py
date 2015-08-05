@@ -1,7 +1,7 @@
-import socket,traceback
+import socket,traceback,sys
 
 host = ''
-port = 11111
+port = int(sys.argv[1])
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 #create a socket
