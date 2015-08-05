@@ -17,6 +17,8 @@ except socket.gaierror,e:
 	print "Error connecting to server : %s" % e
 	sys.exit(1)
 
+print 'successfully connected!'
+
 try:
 	s.sendall(mess)
 	s.shutdown(1)
@@ -32,3 +34,5 @@ while 1:
 		break
 	sys.stdout.write(buf)
 	#read message from server and print it
+	
+print 'connect stop!'
